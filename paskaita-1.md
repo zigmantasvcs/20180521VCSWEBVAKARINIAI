@@ -6,7 +6,7 @@
 
 ## Paskaitos turinys
 
-1. [Skaidres](https://github.com/zigmantasvcs/20180521VCSWEBVAKARINIAI/blob/master/skaidres/paskaita-1.pdf)
+1. [Skaidres](https://github.com/zigmantasvcs/20180521VCSWEBVAKARINIAI/blob/master/skaidres/01_HTML.pdf)
 
 * HTML ivadas
 * Kas tai yra HTML
