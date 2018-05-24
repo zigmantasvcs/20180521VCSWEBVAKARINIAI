@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+div{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 100px;
+  box-shadow: 0px 0px 100px yellow;
+}
+
+div[class^="star"]{
+  position: relative;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 10px yellow;
+}
+
+div.star1{
+  left:500px;
+}
+
+div.star2{
+  left:300px;
+  top: 500px;
+}
+
+div.star3{
+  left:200px;
+  top: 100px;
+}

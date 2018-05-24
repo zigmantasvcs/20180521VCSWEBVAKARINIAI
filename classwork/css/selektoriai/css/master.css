@@ -1,0 +1,93 @@
+h1{
+  background-color: yellow;
+}
+
+#turinys{
+  color: green;
+}
+
+ul.menu{
+  list-style-type: none;
+
+}
+
+h1.pirmas{
+  color: blue;
+}
+
+h1.antras{
+  color: purple;
+}
+
+p.pirmas{
+  color: black;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-align: justify;
+  height: 400px;
+  text-indent: 100px;
+  text-shadow: 1px 1px 3px black;
+  background-color: white;
+  color: white;
+}
+
+p.pirmas::first-letter{
+  font-size: 20pt;
+}
+
+span{
+  background-color: yellow;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+/* [class]{
+  background-color: black;
+} */
+[required]{
+  background-color: pink;
+}
+
+table{
+  width: 100%;
+}
+
+input[type="text"]{
+  width: 100%;
+}
+[class$="as"]{
+  background-color: red;
+}
+/* gilyn i elementa */
+ul.menu li{
+  display: inline;
+}
+
+/* gilyn i elementa */
+ul.menu li a{
+  text-decoration: none;
+  color: green;
+  text-transform: uppercase;
+}
+
+a:hover{
+  background-color: blue;
+}
+
+a:active{
+  background-color: yellow;
+}
+
+table tr:first-child{
+  background-color: red;
+}
+/* kas antra eilute pradedant pirmu */
+ul li:nth-child(2n+1){
+  background-color: green;
+}
+
+table.lentele tr td:nth-child(2n+1){
+  background-color: rgb(81, 255, 0);
+  opacity: 0.5;
+}
