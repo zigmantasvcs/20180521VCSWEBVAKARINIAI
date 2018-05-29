@@ -6,8 +6,8 @@
 
 ## Paskaitos turinys
 
-1. [Skaidres](https://github.com/zigmantasvcs/20180521VCSWEBVAKARINIAI/blob/master/skaidres/06_CSS.pdf)
-
+1. [JS Skaidres](https://github.com/zigmantasvcs/20180521VCSWEBVAKARINIAI/blob/master/skaidres/06_JS.pdf)
+[Projektui skaidres](https://github.com/zigmantasvcs/20180521VCSWEBVAKARINIAI/blob/master/skaidres/PROJEKTAS.pdf)
 * Materialize layout
 * JS įvadas
 * Kintamieji
