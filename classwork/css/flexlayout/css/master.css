@@ -1,3 +1,8 @@
+ul {
+  /* margin: 0 0 0 20; */
+  margin-left: 20;
+	list-style-type:disc;
+}
 /* .col1{ flex: 8.33%; }
 .col2{ flex: 16.66%; }
 .col3{ flex: 25%; }
