@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="button" name="" value="1">
+    <input type="button" name="" value="2">
+    <input type="button" name="" value="3">
+
+    <button type="button" name="button">1</button>
+    <button type="button" name="button">2</button>
+    <button type="button" name="button">3</button>
+
+    <script src="../jquery331.js"></script>
+    <script type="text/javascript">
+
+      $("button").click(function(){
+        var mygtukoReiksme = $(this).text();
+        alert(mygtukoReiksme);
+      });
+
+    </script>
+  </body>
+</html>

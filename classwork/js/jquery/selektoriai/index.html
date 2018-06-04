@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" name="" value="">
+    <input type="text" name="" value="">
+    <input type="text" name="" value="">
+    <button type="button" name="button">OK</button>
+    <button type="button" name="ok">OK</button>
+    <script src="../jquery331.js"></script>
+    <script type="text/javascript">
+      $("button[name='ok']").on("click", function(){
+        // alert("Kol kas veikia");
+        var inputai = $("input");
+
+        for (var i = 0; i < inputai.length; i++) {
+          alert($(inputai[i]).val());
+          //alert(inputai[i].val());
+        }
+      });
+    </script>
+  </body>
+</html>
